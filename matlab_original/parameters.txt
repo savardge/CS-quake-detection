@@ -1,0 +1,35 @@
+AGU poster:
+Main_scc parameters:
+tlen=18; % window length in s
+tinc=0.5; %overlap in s
+ThreshCC=0.40; % threshold for cc coef.
+Tlow=60; % threshold for sum of envelope amplitudes (below=too faint signal)
+
+Clean_wf parameters:
+T=75; % treshold for % energy in the low or high frequencies
+Tfhigh=6; %  high frequency to look over for threshold T
+Tflow=2; % low frequency to look below for threshold T
+Tfmax=75; % threshold for max of energy in the highest peak
+
+ccsearch:
+twin=2.0
+sigr tolerance=0.4
+
+
+Latest:
+Main_scc parameters:
+tlen=18
+tinc=0.5
+ThreshCC=0.43
+Tlow=60
+
+Clean_wf parameters:
+T=70; % treshold for % energy in the low or high frequencies
+Tfhigh=6; %  high frequency to look over for threshold T
+Tflow=2; % low frequency to look below for threshold T
+Tfmax=85; % threshold for max of energy in the highest peak
+
+ccsearch:
+twin=2.0
+sigr tolerance=0.2 
+

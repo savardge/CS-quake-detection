@@ -1,0 +1,5 @@
+Shikoku data
+
+path=/megadata/shared/shared/Data5/SWShikoku
+October 2014
+All stations available.
